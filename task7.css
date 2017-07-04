@@ -1,0 +1,74 @@
+body{
+    padding-top:50px;
+    padding-bottom: 70px;
+    background-color: #f0f0f0;
+}
+html{
+    font-size: 62.5%;
+}
+.collapsed{
+    border: none;
+}
+.navbar{
+    background-color: #29bde0;
+}
+.navbar-default .navbar-toggle .icon-bar{
+    background-color:#ffffff ;
+}
+
+.row1{
+    font-size: 3.4rem;
+    font-family: "Hiragino Sans GB";
+    color: rgb(154, 154, 154);
+    margin:27px 30px;
+    padding:42px 0;
+    text-align: center;
+    border: 1px solid #c9c9c9;
+    background-color: #ffffff;
+}
+ul{
+    border: 1px solid #c9c9c9;
+    margin:0 30px;
+    padding: 0;
+    background-color: #ffffff;
+}
+li{
+    list-style: none;
+    display:flex;
+    justify-content: center;
+}
+.row2{
+    font-size: 4rem;
+    font-family: "Hiragino Sans GB";
+    color: rgb(251, 180, 53);
+    padding:42px 0;
+    border-bottom: 2px solid rgb(251, 180, 53);
+}
+.row3,
+.row5,
+.row7{
+    font-size: 3.4rem;
+    font-family: "Hiragino Sans GB";
+    color: rgb(255, 255, 255);
+    width:85%;
+    background-color: #29bde0;
+    margin: 28px auto;
+    padding:52px 0;
+}
+.row4,
+.row6,
+.row8{
+    font-size: 2.6rem;
+    font-family: "Hiragino Sans GB";
+    color: rgb(120, 120, 120);
+}
+.circle{
+    margin:10px 5px;
+    width:16px;
+    height:16px;
+    border-radius: 8px;
+    background-color: #f0f0f0;
+}
+.circle1{
+    background-color: #69d1e9;
+}
