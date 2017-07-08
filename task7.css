@@ -15,6 +15,11 @@ html{
 .navbar-default .navbar-toggle .icon-bar{
     background-color:#ffffff ;
 }
+.pull-right{
+    width: 24px; height: 40px;
+    background: url('css_sprites.png') -212px -10px;
+    margin:4px 14px;
+}
 
 .row1{
     font-size: 3.4rem;
@@ -31,6 +36,7 @@ ul{
     margin:0 30px;
     padding: 0;
     background-color: #ffffff;
+    position:relative;
 }
 li{
     list-style: none;
@@ -71,4 +77,11 @@ li{
 }
 .circle1{
     background-color: #69d1e9;
+}
+.next-page{
+    position:absolute;
+    top:50%;
+    right:0;
+    width: 28px; height: 56px;
+    background: url('css_sprites.png') -10px -82px;
 }
