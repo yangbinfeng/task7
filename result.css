@@ -1,0 +1,187 @@
+body{
+    background-color: #29bde0;
+    padding-top: 70px;
+    padding-bottom: 130px;
+}
+html{
+    font-size: 62.5%;
+}
+.home{
+    width: 51px; height: 42px;
+    background: url('css_sprites.png') -82px -10px;
+}
+.info{
+    width: 40px; height: 40px;
+    background: url('css_sprites.png') -58px -82px;
+}
+.header{
+    display:flex;
+    height:80px;
+    background-color: #29bde0;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    padding:0 24px;
+    border-bottom: 1px solid #74d4eb;
+    z-index: 999;
+}
+.header span{
+    font-size: 3.4rem;
+    font-family: "Hiragino Sans GB";
+    color: rgb(255, 255, 255);
+}
+.img1{
+    padding:22px 0 0;
+    text-align: center;
+}
+.img1 p{
+    font-size: 3.3rem;
+    font-family: "Hiragino Sans GB";
+    color: rgb(255, 200, 101);
+    width:80%;
+    margin:22px auto 37px;
+}
+.content{
+    font-size: 2.6rem;
+    font-family: "Hiragino Sans GB";
+    color: rgb(255, 255, 255);
+    padding:26px 10%;
+    line-height: 1.5;
+}
+.name{
+    display: inline-block;
+    text-align: justify;
+    width:17%;
+    height:2.6rem;
+    overflow: hidden;
+    vertical-align:top;
+}
+i{
+    display:inline-block;
+    width:100%;
+    height:0;
+}
+.number{
+    margin-right: 25px;
+}
+.content2{
+    font-size: 2.5rem;
+    font-family: "Hiragino Sans GB";
+    background-color: #ffffff;
+    color: rgb(166, 166, 166);
+    line-height: 1.6;
+    display:flex;
+    flex-direction: column;
+    list-style: none;
+    width:100%;
+    padding:0;
+    border-top: 2px solid #dddddd;
+}
+.content2 li{
+    border-bottom: 2px solid #dddddd;
+    padding:0 10% 26px;
+}
+.day{
+    font-size: 2.84rem;
+    font-family: "Hiragino Sans GB";
+    color: rgb(81, 81, 81);
+    line-height: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.time{
+    font-size: 1.9rem;
+    font-family: "Hiragino Sans GB";
+    color: rgb(199, 199, 199);
+}
+.footer{
+    display:flex;
+    height:130px;
+    background-color: #29bde0;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    z-index: 999;
+}
+button{
+    outline: none;
+}
+.btn-left{
+    background-color: #f66f6f;
+    margin:25px;
+    width:45%;
+    border: none;
+    font-size: 4rem;
+    font-family: "Heiti SC";
+    color: rgb(255, 255, 255);
+    padding:24px 0 25px;
+    border-radius: 15px;
+    line-height: 1;
+    outline: none !important;
+}
+.btn-right{
+    background-color: #fbb435;
+    margin:25px;
+    width:45%;
+    border: none;
+    font-size: 4rem;
+    font-family: "Heiti SC";
+    color: rgb(255, 255, 255);
+    padding:24px 0 25px;
+    border-radius: 15px;
+    line-height: 1;
+    outline: none !important;
+}
+@media screen and (max-width:500px){
+    body{
+        background-color: #29bde0;
+        padding-top: 70px;
+        padding-bottom: 104px;
+    }
+    html{
+        font-size: 50%;
+    }
+    .img1 img{
+        width:50%;
+    }
+    .img1 p{
+        font-size: 3.3rem;
+        margin:22px auto;
+    }
+    .footer{
+        display:flex;
+        height:104px;
+        background-color: #29bde0;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        bottom:0;
+        left:0;
+        right:0;
+        z-index: 999;
+    }
+    button{
+        outline: none;
+    }
+    .btn-left{
+        margin:25px 0 25px 25px;
+        width:40%;
+        font-size: 3rem;
+        padding:15px 0 15px;
+        border-radius: 10px;
+    }
+    .btn-right{
+        margin:25px 25px 25px 0;
+        width:40%;
+        font-size: 3rem;
+        padding:15px 0 15px;
+        border-radius: 10px;
+    }
+}
