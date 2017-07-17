@@ -97,10 +97,23 @@ li{
     right:0;
     width: 28px; height: 56px;
     background: url('css_sprites.png') -10px -82px;
+    margin: 8px 5px 0 0 ;
 }
 @media screen and (max-width: 530px){
-    html{
+    html {
         font-size: 40%;
+    }
+    .row3,
+    .row5,
+    .row7{
+        width:80%;
+    }
+    ul{
+        margin: 0 15px;
+    }
+    .row1{
+        margin:15px;
+        height:76px;
     }
 }
 @media screen and (max-width: 400px){
@@ -108,7 +121,7 @@ li{
         font-size: 30%;
     }
     .row1{
-        margin:25px;
+        margin:15px;
         height:76px;
     }
     .pull-right{
@@ -116,17 +129,20 @@ li{
     }
     ul{
         border: 1px solid #c9c9c9;
-        margin:0 25px;
+        margin:0 15px;
     }
     .row3,
     .row5,
     .row7{
         height:76px;
-        width:85%;
+        width:78%;
         padding:26px 0;
         margin: 14px auto;
     }
     .row2{
         padding:21px 0;
+    }
+    .next-page{
+        margin:-17px 0 0 0;
     }
 }

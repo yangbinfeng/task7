@@ -101,7 +101,7 @@ i{
 .footer{
     display:flex;
     height:130px;
-    background-color: #29bde0;
+    background-color: rgba(41,189,224,0.5);
     justify-content: space-between;
     align-items: center;
     position: fixed;
@@ -156,9 +156,8 @@ button{
         margin:22px auto;
     }
     .footer{
-        display:flex;
         height:104px;
-        background-color: #29bde0;
+        background-color: rgba(41,189,224,0.5);
         justify-content: space-between;
         align-items: center;
         position: fixed;
