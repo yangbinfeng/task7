@@ -143,6 +143,20 @@ li{
         padding:21px 0;
     }
     .next-page{
-        margin:-17px 0 0 0;
+        position:absolute;
+        top:50%;
+        right:0;
+        width: 14px; height: 28px;
+        background: url('css_sprites (1).png') -10px -10px;
+        margin: -4px 5px 0 0 ;
+    }
+    .pull-right{
+        width: 12px; height: 20px;
+        background: url('css_sprites (1).png') -44px -10px;
+        margin-right:14px;
+        position: absolute;
+        right:0;
+        top:50%;
+        transform: translatey(-50%);
     }
 }
