@@ -25,16 +25,13 @@ html{
     transform: translatey(-50%);
 }
 .row1{
-    font-size: 3.4rem;
-    font-family: "Hiragino Sans GB";
-    color: rgb(154, 154, 154);
     margin:27px 30px;
     height:119px;
     border: 1px solid #c9c9c9;
     background-color: #ffffff;
     position: relative;
 }
-.row1 span{
+.row1 a{
     display: block;
     width: 100%;
     text-align: center;
@@ -42,6 +39,10 @@ html{
     left:50%;
     top:50%;
     transform: translate(-50%,-50%);
+    font-size: 3.4rem;
+    font-family: "Hiragino Sans GB";
+    color: rgb(154, 154, 154);
+    text-decoration: none;
 }
 ul{
     border: 1px solid #c9c9c9;
@@ -62,17 +63,20 @@ li{
     padding:42px 0;
     border-bottom: 2px solid rgb(251, 180, 53);
 }
-.row3,
-.row5,
-.row7{
+.row3 a,
+.row5 a,
+.row7 a{
+    display: block;
     font-size: 3.4rem;
     font-family: "Hiragino Sans GB";
     color: rgb(255, 255, 255);
+    line-height: 1;
+    text-decoration: none;
     width:85%;
     background-color: #29bde0;
     margin: 28px auto;
     padding:52px 0;
-    line-height: 1;
+    text-align: center;
 }
 .row4,
 .row6,
@@ -103,9 +107,9 @@ li{
     html {
         font-size: 40%;
     }
-    .row3,
-    .row5,
-    .row7{
+    .row3 a,
+    .row5 a,
+    .row7 a{
         width:80%;
     }
     ul{
@@ -131,10 +135,9 @@ li{
         border: 1px solid #c9c9c9;
         margin:0 15px;
     }
-    .row3,
-    .row5,
-    .row7{
-        height:76px;
+    .row3 a,
+    .row5 a,
+    .row7 a{
         width:78%;
         padding:26px 0;
         margin: 14px auto;

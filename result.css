@@ -110,10 +110,8 @@ i{
     right:0;
     z-index: 999;
 }
-button{
-    outline: none;
-}
 .btn-left{
+    display: block;
     background-color: #f66f6f;
     margin:25px;
     width:45%;
@@ -124,9 +122,9 @@ button{
     padding:24px 0 25px;
     border-radius: 15px;
     line-height: 1;
-    outline: none !important;
 }
 .btn-right{
+    display: block;
     background-color: #fbb435;
     margin:25px;
     width:45%;
@@ -137,7 +135,6 @@ button{
     padding:24px 0 25px;
     border-radius: 15px;
     line-height: 1;
-    outline: none !important;
 }
 @media screen and (max-width:500px){
     body{
