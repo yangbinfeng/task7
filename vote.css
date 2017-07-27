@@ -63,17 +63,23 @@ html{
     color: rgb(255, 255, 255);
     padding-left:71px;
 }
+.row3,
+.row4,
+.row5,
+.row6{
+    display: flex;
+    justify-content: space-between;
+}
 .box{
     width:21.5vw;
     height:21.5vw;
     border:5px solid #ffffff;
-    float:left;
-    margin:33px 5.9vw 11.4vw;
+    margin:33px 5.5vw 11.4vw;
     display: flex;
     flex-direction: column;
     position: relative;
 }
-.box:hover .option-menu{
+.display_option-menu{
     visibility: visible;
 }
 .name{
