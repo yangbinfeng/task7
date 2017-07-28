@@ -79,9 +79,6 @@ html{
     flex-direction: column;
     position: relative;
 }
-.display_option-menu{
-    visibility: visible;
-}
 .name{
     background-color: #f5c97b;
     font-size: 3rem;
@@ -118,6 +115,16 @@ html{
     width: 30px; height: 30px;
     background: url('css_sprites.png') -10px -205px;
 }
+.framework-option-menu{
+    position: absolute;
+    left:-5px;
+    right:0;
+    top:-5px;
+    width:21.5vw;
+    height:21.5vw;
+    border:5px solid rgba(255,255,255,0);
+    background-color: rgba(255,255,255,0);
+}
 .option-menu{
     position: absolute;
     display: flex;
@@ -127,6 +134,12 @@ html{
     right:0;
     top:26.5vw;
     visibility: hidden;
+}
+.framework-option-menu:hover{
+    height:32vw;
+}
+.framework-option-menu:hover .option-menu{
+    visibility: visible;
 }
 .footer{
     height:190px;
